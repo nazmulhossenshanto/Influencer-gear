@@ -19,38 +19,72 @@ body {
 
 
 /* navbar styles */
-.navbar{
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.nav-title{
+
+.nav-title {
     font-size: 1.5rem;
     font-weight: 700;
 }
-.navbar > ul > li{
+
+.navbar>ul>li {
     display: inline;
     margin-right: 34px;
 
 }
-.navbar > ul > li > a{
+
+.navbar>ul>li>a {
     color: #3A3A3A;
     text-decoration: none;
     font-size: 1rem;
     font-weight: 600;
 
 }
-.hero{
+
+.hero {
     display: flex;
-    
+    justify-content: space-between;
+
 }
-.text-container{
-    height: 300px;
-    background-color: aqua;
-    width: 50%;
+
+.text-container {
+    /* width: 50%; */
+    width: 475px;
+height: 475px;
+    margin-top: 80px;
 }
-.image-container{
-    height: 300px;
-    background-color: bisque;
-    width: 50%;
+
+.hero-title {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #3A3A3A;
+}
+
+.hero-description {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #3A3A3A;
+}
+
+.hero-btn {
+    color: white;
+    height: 44px;
+    width: 196px;
+    border-radius: 41px;
+    background: rgb(224, 44, 109);
+    border: none;
+    padding: 10px 24px 10px 24px;
+
+}
+
+.image-container {
+    width: 475px;
+    height: 475px;
+    background-image: url(/iamges/images/Circle\ design.svg);
+}
+.image-container img{
+    width: 100%;
 }
