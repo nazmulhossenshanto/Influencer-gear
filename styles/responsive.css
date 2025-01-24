@@ -1,0 +1,15 @@
+/* For mobile devices */
+@media (max-width: 576px) {
+    /* Mobile-specific styles */
+  }
+  
+  /* For tablet devices */
+  @media (min-width: 577px) and (max-width: 991px) {
+    /* Tablet-specific styles */
+  }
+  
+  /* For desktop devices */
+  @media (min-width: 992px) and (max-width: 1400px) {
+    /* Desktop-specific styles */
+  }
+  
